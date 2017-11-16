@@ -16,6 +16,7 @@ This program features two learning rules, a Hebbiean Learning rule original and 
 
 ### performance metrics
 These images below, show the performance of the trained perceptron network, when given input vectors that have been altered by 2, 4, and 6pixels respectivly, the methodology for testing this was, to randomly generate a array of  the number of pixels to change holding permutated index's in which we flipped their original input, this produced noise into the network, and we recorded the performance  of the network given these noisey vectors, as expected, the more pixels we changed the lower the performance metric would be. 
+*note: higher percentages means higher error
 ![This is the Hebiean Learning](https://image.ibb.co/d8NmwR/Hebb.png) 
 
 ![This is pseudo Inverse Learning](https://image.ibb.co/i37x36/Pseudo_Inv.png)
