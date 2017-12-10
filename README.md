@@ -1,4 +1,4 @@
-# Neural_Network_Hebbian_Learning
+# Neural Network Hebbian Learning
 This Program was built to demonstrate one of the oldest learning algorithms introduced by Donald Hebb in 1949 book Organization of Behavior, this learning rule largly reflected the dynamics of a biological system. The understanding of Doctor Hebb's research was that a Synapse between two neurons is strengthended when the eurons on either side of the synapse (input and output) have highly correlated outputs. Esstentially when an input neuron fires, the output neuron, the synapse(connection between the two/ WEIGHTS) strengthen ( the weights grow in a postive manner). Following this analogy to an artifical system, the weight is increased with high correlation between two sequential neurons.
 
 ## Getting Started
