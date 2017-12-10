@@ -209,58 +209,7 @@ function main()
     P_prototypes = [transpose(p_0) transpose(p_1) transpose(p_2) transpose(p_3) transpose(p_4) transpose(p_5) transpose(p_6)];
     %initalize variables for testing
     runMainTest(P_prototypes);
-%           OLD STATIC TEST CODE SEE ABOVE FOR UPDATED VERSION
-% %     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %       for pix_to_rm=2:2:6%num pixels to remove
-% %         %iterate thorught he test to see the performance
-% %        x = test(p_5,10,pix_to_rm);
-% %        fprintf("%d pixels removed performance %.1f\n",pix_to_rm,x); 
-% %        %x
-% %       end
-% %     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %     
-%     
-%     %step 1 collect the data, using row vectors
-%     p1 = [1 1 -1 1 -1 -1];
-%     p2 = [-1 1 1 1 1 -1];
-%     %make P matrix
-%     %step 2 make the matrix, NOTICE the transposing each prototype input
-%     %then adding them to P matrix
-%     %P = [transpose(p1) transpose(p2) transpose(p];
-%     %train the network with the prototypes
-%     trainNetwork(P_prototypes);
-% 
-%     %for each prototype vector
-%         %train the network and get weights for this vector
-%             %test the performance
-%                 %for i =1 to prototype vector(whcih sis the number of vectors
-%                 %using
-%                     %
-%     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     %
-%     %
-%     %
-%     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %     for pix_to_rm=2:2:6%num pixels to remove
-% %         %iterate thorught he test to see the performance
-% %        x = test(p_5,10,pix_to_rm);
-% %        fprintf("%d pixels removed performance %.1f\n",pix_to_rm,x); 
-% %        %x
-% %     end
-%     %results
-%     x = [ 2 3 4 5 6 7];
-% 
-%     y_2px = [0 0 0 10 40 30];
-%     y_4px = [0 0 10 30 70 70];
-%     y_6px = [0 10 20 50 70 80];
-% 
-%     %plotting the performance metrics
-%     figure;
-%     plot(x,y_2px,'g',x,y_4px,'r',x,y_6px,'b');
-%     legend('2px','4px','6px')
-%     ylabel('Percentage of error (%)')
-%     xlabel('Number of digits Stored')
-%     title("Hebbian Learning Performance based on number of images stored")
+
 end
 
 
